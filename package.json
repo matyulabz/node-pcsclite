@@ -34,8 +34,7 @@
   },
   "scripts": {
     "install": "node-gyp rebuild",
-    "test": "mocha",
-    "prepare": "npm run build"
+    "test": "mocha"
   },
   "dependencies": {
     "bindings": "^1.3.0",
