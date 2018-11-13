@@ -33,7 +33,7 @@
     "url": "https://github.com/pokusew/node-pcsclite.git"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
+    "prepare": "node-gyp rebuild",
     "test": "mocha"
   },
   "dependencies": {
